@@ -3,10 +3,9 @@
     "name": "Aaron Ohara",
     "label": "Student",
     "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am an Oahu-native student pursing a BS degree in computer science, graduating in Fall 2027.",
+    "email": "aohara6@hawaii.edu",
+    "website": "https://keolaohara.github.io",
+    "summary": "I am 4th year student pursing a BS degree in computer science, graduating in Fall 2027.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "keolaohara", "url": "https://github.com/keolaohara" },
