@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/micromouse/homeICON.jpg
 title: "Software App Develoment"
 date: 2026
 published: true
@@ -15,9 +15,8 @@ summary: "Worked alongside three other computer science students to create, desi
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="200px" src="../img/micromouse/app1.png" class="img-thumbnail" >
+  <img width="200px" src="../img/micromouse/app2.png" class="img-thumbnail" >
 </div>
 
 During my summer internship, I worked as a developer on a mobile application for the 25th Infantry Division's Tropic Lightning Week. The purpose of the app was to provide one place for soldiers and event organizers to view competition schedules, track scores, and see unit rankings throughout the event. The application also included administrative features that allowed authorized users to manage competitions, update scores, and organize event information.
