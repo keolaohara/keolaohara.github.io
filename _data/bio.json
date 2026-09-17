@@ -5,7 +5,7 @@
     "picture": "https://github.com/keolaohara.png",
     "email": "aohara6@hawaii.edu",
     "website": "https://keolaohara.github.io",
-    "summary": "I am 4th year student pursing a BS degree in computer science, graduating in Fall 2027.",
+    "summary": "I am fourth-year year student pursuing a B.S. degree in Computer Science, graduating in Fall 2027.",
     "location": {
       "address": "",
       "postalCode": "96822",
@@ -34,7 +34,7 @@
       "name": "Ethical Hacking & Penetration Testing"
     },
     {
-      "name": "Aviaton"
+      "name": "Aviation"
     }
   ],
   "skills": [
@@ -50,7 +50,7 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Fall, 2027)",
+      "area": "Computer Science (expected Fall 2027)",
       "studyType": "B.S.",
       "startDate": "2024-08-24",
       "endDate": "Present",
@@ -64,9 +64,9 @@
       "website": "",
       "startDate": "2026-06-15",
       "endDate": "2026-08-07",
-      "summary": "Assisted the U.S. Army in building and publishing an app",
+      "summary": "Assisted the U.S. Army in developing and publishing a mobile application.",
       "highlights": [
-        "Design, Update, and Build a working app to keep track of soldier's schedules"
+        "Designed, updated, and built a functional application to track soldier's schedules."
       ]
     },
     {
@@ -75,10 +75,10 @@
       "website": "https://eliteparking.net/",
       "startDate": "2026-03-27",
       "endDate": "Present",
-      "summary": "Welcome and Assist Guests in parking vehicles",
+      "summary": "Welcome and assist guests with parking their vehicles",
       "highlights": [
-        "Practicing excellent customer service",
-        "Communicating and working in fast paced environments"
+        "Provide excellent customer service",
+        "Communicate and work effectively in fast-paced environments."
       ]
     }
   ],
@@ -89,7 +89,7 @@
       "position": "Grace Kidz Ministry Helper",
       "startDate": "2025-02-1",
       "endDate": "2026-08-31",
-      "summary": "Supervised and Facilitated for kids ranging from 10 to 5",
+      "summary": "Supervised and facilitated activities for children ages 5-10",
       "highlights": [
         "Maintained a welcoming and friendly environment while teaching and supervising children"
       ]
@@ -100,7 +100,7 @@
       "position": "Volunteer",
       "startDate": "2021-06-17",
       "endDate": "2021-06-17",
-      "summary": "Helped Facilate games during Special Olympics",
+      "summary": "Helped facilitate games during Special Olympics events",
       "highlights": [
         "Communicated and supported individuals with special needs"
       ]
@@ -111,13 +111,13 @@
       "title": "Merit Scholarship",
       "date": "2024-2025",
       "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to transfer students who showed excellent academic performance."
+      "summary": "Scholarship awarded to transfer students who demonstrated excellent academic performance."
     },
     {
       "title": "Valedictorian",
       "date": "2023",
       "awarder": "Kapolei High School",
-      "summary": "Awared to students who maintained a 4.0 throughout their high school career."
+      "summary": "Awarded to students who maintained a 4.0 throughout their high school career."
     }
   ],
   "references": [
