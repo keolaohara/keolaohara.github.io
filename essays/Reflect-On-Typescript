@@ -1,10 +1,14 @@
 ---
 layout: essay
 type: essay
-title: Reflect on Typescript 2026
-date: 2026-9-16
+title: "Reflecting on TypeScript"
+date: 2026-09-16
+published: true
+labels:
+  - TypeScript
+  - Java
+  - C++
 ---
-
 Taking this class and slowly learning TypeScript has been an informative experience because I already had experience programming with Java and C++ from my other classes. 
 
 Due to my prior knowledge many TypeScript concepts felt familiar, but I also had to adjust to some differences in syntax and how the language handles data types. 
