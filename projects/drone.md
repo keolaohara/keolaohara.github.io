@@ -10,7 +10,7 @@ labels:
   - Electronics
   - CAD
   - Camera Systems
-summary: "While Partnered with U.S. Army, designed and assembeled drones using CAD and pre-made parts."
+summary: "While Partnered with the U.S. Army, designed and assembeled drones using CAD and pre-made parts."
 ---
 
 For this project, I designed and assembled small camera-equipped drones using pre-made components. The goal was to create a lightweight and functional drone that could be controlled reliably while capturing video from the air. We considered factors such as the placement of components, weight distribution, stability, and camera positioning when developing the overall design.
