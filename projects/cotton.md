@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/cotton/light-scanner.png
 title: "Introductory Light Scanner"
 date: 2024
 published: true
