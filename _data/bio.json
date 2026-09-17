@@ -20,7 +20,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java"]
     },
     {
       "name": "Toolsets/OS",
@@ -30,9 +30,9 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Fall, 2027)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2024-08-24",
       "endDate": "Present",
       "courses": [
       ]
@@ -40,69 +40,65 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "U.S. Army Pacific",
+      "position": "App Developer",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2026-06-15",
+      "endDate": "2026-08-07",
+      "summary": "Assisted the U.S. Army in building and publishing an app",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Design, Update, and Build a working app to keep track of soldier's schedules",
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Elite Parking",
+      "position": "Valet",
+      "website": "https://eliteparking.net/",
+      "startDate": "2026-03-27",
+      "endDate": "Present",
+      "summary": "Welcome and Assist Guests in parking vehicles",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Practicing excellent customer service",
+        "Communicating and working in fast paced environments"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Grace Honolulu Church",
+      "website": "https://gracehonolulu.org/",
+      "position": "Grace Kidz Ministry Helper",
+      "startDate": "2025-02-1",
+      "endDate": "2026-08-31",
+      "summary": "Supervised and Facilitated for kids ranging from 10 to 5"
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Maintained a welcoming and friendly environment while teaching and supervising children"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "Special Olympics",
+      "website": "https://shop.specialolympics.org/en-us?gad_source=1&gad_campaignid=20856176577&gbraid=0AAAAAD_Fx611PLQ3FzflSc9J8rngXLKM9&gclid=CjwKCAjwn67VBhBnEiwAXUIN1QMKquOk0HB6EQBuOva6aL_GarC8duIJe1qAFzF77Fj_wqQkSLPQNxoCi5wQAvD_BwE",
+      "position": "Volunteer",
+      "startDate": "2021-06-17",
+      "endDate": "2021-06-17",
+      "summary": "Helped Facilate games during Special Olympics",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Communicated and supported individuals with special needs"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
+      "title": "Merit Scholarship",
+      "date": "2024-2025",
       "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "summary": "Scholarships awarded to transfer students who showed excellent academic performance."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Valedictorian",
+      "date": "2023",
+      "awarder": "Kapolei High School",
+      "summary": "Awared to students who maintained a 4.0 throughout their high school career."
     }
   ],
   "references": [
