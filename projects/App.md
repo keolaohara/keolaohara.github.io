@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/25tICON.jpg
+image: img/micromouse/25thICON.jpg
 title: "Software App Develoment"
 date: 2026
 published: true
