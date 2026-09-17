@@ -6,25 +6,45 @@
     "email": "aohara6@hawaii.edu",
     "website": "https://keolaohara.github.io",
     "summary": "I am 4th year student pursing a BS degree in computer science, graduating in Fall 2027.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": {
+      "address": "",
+      "postalCode": "96822",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
     "profiles": [
-      { "network": "github", "username": "keolaohara", "url": "https://github.com/keolaohara" },
-      { "network": "linkedin", "username": "Aaron Ohara", "url": "https://www.linkedin.com/in/aaron-ohara-2968142b4/" },
+      {
+        "network": "github",
+        "username": "keolaohara",
+        "url": "https://github.com/keolaohara"
+      },
+      {
+        "network": "linkedin",
+        "username": "Aaron Ohara",
+        "url": "https://www.linkedin.com/in/aaron-ohara-2968142b4/"
+      }
     ]
   },
   "interests": [
-    { "name": "Network Security" },
-    { "name": "Ethical Hacking & Penetration Testing" },
-    { "name": "Aviaton" },
+    {
+      "name": "Network Security"
+    },
+    {
+      "name": "Ethical Hacking & Penetration Testing"
+    },
+    {
+      "name": "Aviaton"
+    }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java"]
+      "keywords": ["C", "C++", "Java"]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": ["MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad"]
     }
   ],
   "education": [
@@ -34,8 +54,7 @@
       "studyType": "B.S.",
       "startDate": "2024-08-24",
       "endDate": "Present",
-      "courses": [
-      ]
+      "courses": []
     }
   ],
   "work": [
@@ -47,7 +66,7 @@
       "endDate": "2026-08-07",
       "summary": "Assisted the U.S. Army in building and publishing an app",
       "highlights": [
-        "Design, Update, and Build a working app to keep track of soldier's schedules",
+        "Design, Update, and Build a working app to keep track of soldier's schedules"
       ]
     },
     {
@@ -70,7 +89,7 @@
       "position": "Grace Kidz Ministry Helper",
       "startDate": "2025-02-1",
       "endDate": "2026-08-31",
-      "summary": "Supervised and Facilitated for kids ranging from 10 to 5"
+      "summary": "Supervised and Facilitated for kids ranging from 10 to 5",
       "highlights": [
         "Maintained a welcoming and friendly environment while teaching and supervising children"
       ]
