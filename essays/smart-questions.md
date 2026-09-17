@@ -13,8 +13,6 @@ labels:
 
 ## Is there such thing as a stupid question?
 
-# Asking Questions the Smart Way
-
 Being able to ask good questions is an important skill for software engineers. When programming, there are always problems that we cannot immediately solve on our own, so knowing how to ask other developers for help can save a lot of time. In [How To Ask Questions The Smart Way](https://www.catb.org/~esr/faqs/smart-questions.html), Eric Raymond and Rick Moen explain that a good question should be clear, specific, and informative. Before asking, a developer should also research the problem and attempt to solve it themselves. Asking questions this way respects the time of the people helping and makes it easier for them to understand the problem and provide a useful answer.
 
 One example of asking a question the smart way is the Stack Overflow question [Python: can unittest display expected and actual values?](https://stackoverflow.com/questions/4634625/python-can-unittest-display-expected-and-actual-values). The developer was using Python's `unittest.TestCase` that checked whether a person's age was equal to 42. When the test failed, it only displayed the custom message "age incorrect." The developer wanted the test to display both the expected value and the actual value, such as an expected age of 42 and an actual age of 39. This is a smart question because the developer provides the relevant code, explains what currently happens, describes what they want to happen, and asks a specific question about whether `unittest` can provide this information. Instead of simply saying that their code does not work, they give other developers enough information to understand the problem.
