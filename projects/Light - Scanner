@@ -8,7 +8,7 @@ published: true
 labels:
   - Matlab
   - Arduino
-summary: "A text adventure game that I developed for ICS 313."
+summary: "A scanner that detects the brightest spot in the room."
 ---
 
 During my first year studying Mechanical Engineering, I was introduced to programming with Arduino and MATLAB. Throughout the course, we built several projects that combined coding with physical parts to complete different tasks. For our final project, my partner and I developed a light scanner using an Arduino, sensors, servo motors, and 3D-printed parts. The goal of the project was to scan the surrounding area and determine where the brightest light in the room was located.
