@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Questioning your Questions"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2026-09-17
 published: true
 labels:
   - Questions
@@ -11,89 +11,16 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
-
 ## Is there such thing as a stupid question?
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+# Asking Questions the Smart Way
 
-## What’s a smart question?
+Being able to ask good questions is an important skill for software engineers. When programming, there are always problems that we cannot immediately solve on our own, so knowing how to ask other developers for help can save a lot of time. In [How To Ask Questions The Smart Way](https://www.catb.org/~esr/faqs/smart-questions.html), Eric Raymond and Rick Moen explain that a good question should be clear, specific, and informative. Before asking, a developer should also research the problem and attempt to solve it themselves. Asking questions this way respects the time of the people helping and makes it easier for them to understand the problem and provide a useful answer.
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+One example of asking a question the smart way is the Stack Overflow question [Python: can unittest display expected and actual values?](https://stackoverflow.com/questions/4634625/python-can-unittest-display-expected-and-actual-values). The developer was using Python's `unittest.TestCase` that checked whether a person's age was equal to 42. When the test failed, it only displayed the custom message "age incorrect." The developer wanted the test to display both the expected value and the actual value, such as an expected age of 42 and an actual age of 39. This is a smart question because the developer provides the relevant code, explains what currently happens, describes what they want to happen, and asks a specific question about whether `unittest` can provide this information. Instead of simply saying that their code does not work, they give other developers enough information to understand the problem.
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+The responses to the question also show why asking questions this way is effective. Since the problem was clearly explained, people were able to immediately provide possible solutions instead of asking for more information. One answer suggested using `assertEqual()` instead of `assertTrue()`, which can automatically show the values being compared when the assertion fails. Another answer explained how the `longMessage` attribute could be used so the assertion displays both the comparison information and the developer's custom error message. These answers directly address the original problem and demonstrate how a specific question can lead to specific and useful responses.
 
-```
-Q: python date of the previous month
+A not-so-smart question could instead be something like, **"Python code doesn't work. My program keeps giving me an error and I tried changing some things, but it still doesn't work. Can someone fix it?"** This question would violate many of the principles discussed by Raymond and Moen. It does not provide the code that is causing the problem, the error message, what the program is supposed to do, or what the developer has already attempted. The title is also too vague to tell other developers what the actual problem is. Someone trying to help would first have to ask questions such as "What error are you getting?", "Can you provide your code?", or "What are you expecting the program to do?" Instead of immediately working toward a solution, both the person asking and the people responding would have to spend additional time figuring out what the problem actually is.
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
-
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
-
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
-
-## Conclusion
-
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+After comparing these two examples, I learned that asking a smart question does not mean that you are expected to already know the solution. Instead, it means doing your own research first and providing enough information for another person to understand the problem. As I continue studying software engineering, I know I will encounter problems where I need help from classmates, instructors, online communities, or other developers. When that happens, I should explain what I am trying to accomplish, provide relevant code and error messages, describe what I have already tried, and ask a specific question. Doing this will not only make it easier for others to help me, but it can also help me understand my own problem better and sometimes even find the solution while preparing the question.
