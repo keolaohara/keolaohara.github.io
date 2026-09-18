@@ -17,16 +17,16 @@ labels:
 
 This quote is ingrained in my mind, and it's never a bad thing to ask questions. However, have you ever thought hard about what type of questions you're asking? Being able to ask good questions is an important skill for software engineers. When programming, there are always problems that we cannot immediately solve on our own, so knowing how to ask other developers for help can save a lot of time. In [How To Ask Questions The Smart Way](https://www.catb.org/~esr/faqs/smart-questions.html), Eric Raymond and Rick Moen explain that a good question should be clear, specific, and informative. 
 
+<img src="/img/confucius.jpg"
+     alt="Smart Stack Overflow Question"
+     width="300"
+     style="float: left; margin-right: 20px; margin-bottom: 10px;">
+
 ## What Is a Smart Question?
 
 One example of asking a question the smart way is the Stack Overflow question Python: can unittest display expected and actual values?. The developer was using Python's unittest.TestCase that checked whether a person's age was equal to 42. When the test failed, it only displayed the custom message "age incorrect." The developer wanted the test to display both the expected value and the actual value, such as an expected age of 42 and an actual age of 39.
 
 I thought this was a smart question because the developer provides the relevant code, explains what currently happens, describes what they want to happen, and asks a specific question about whether unittest can provide this information. Instead of simply saying that their code does not work, they give other developers enough information to understand the problem.
-
-<img src="/img/confucius.jpg"
-     alt="Smart Stack Overflow Question"
-     width="300"
-     style="float: left; margin-right: 20px; margin-bottom: 10px;">
 
 ## Why Smart Questions Work
 
