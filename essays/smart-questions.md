@@ -23,7 +23,7 @@ One example of asking a question the smart way is the Stack Overflow question Py
 
 I thought this was a smart question because the developer provides the relevant code, explains what currently happens, describes what they want to happen, and asks a specific question about whether unittest can provide this information. Instead of simply saying that their code does not work, they give other developers enough information to understand the problem.
 
-<img src="/img/smart-question.png"
+<img src="/img/confucius.jpg"
      alt="Smart Stack Overflow Question"
      width="300"
      style="float: left; margin-right: 20px; margin-bottom: 10px;">
