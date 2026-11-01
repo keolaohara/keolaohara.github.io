@@ -11,9 +11,9 @@ labels:
   - Software Engineering
 ---
 ## When Working Code Still Needs Work
-# The Extra Work After It Works
-# Small Choices Add Up
-# Learning Through Critism
-# Standards Give a Team a Starting Point
-# A Clean ESLint Report Is Still Only One Check
-# What Does Finished Mean to You?
+### The Extra Work After It Works
+### Small Choices Add Up
+### Learning Through Critism
+### Standards Give a Team a Starting Point
+### A Clean ESLint Report Is Still Only One Check
+### What Does Finished Mean to You?
