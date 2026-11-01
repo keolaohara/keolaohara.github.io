@@ -81,3 +81,6 @@ I probably will not get excited about every ESLint warning. But I am beginning t
 
 The finish line is moving. “It runs” is still an important milestone, but I am learning to leave time for the question that comes afterward: “Is this ready for someone else to read?”
 
+### AI Acknowledgement
+AI was used during this assignment to help create an outline that would allow the essay to be read smoothly. I also used it to grammar check my work and to help reword my sentences. When trying to explain my ideas I had difficulty articulating what I wanted to say so AI helped me put it in better words. In my final review I changed a lot of its sentences to reflect my own experiences with coding standards.
+
